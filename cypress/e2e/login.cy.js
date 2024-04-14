@@ -1,6 +1,6 @@
 describe("Login Form", () => {
   it("User can login with valid credentials", () => {
-    cy.visit("https://werkarwerkar.github.io/social-media-client/");
+    cy.visit("/");
 
     cy.wait(1000);
 
