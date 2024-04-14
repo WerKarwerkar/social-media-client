@@ -1,6 +1,6 @@
 describe("Login and Logout flow", () => {
   it("Successfully logs in and then logs out", () => {
-    cy.visit("https://werkarwerkar.github.io/social-media-client/");
+    cy.visit("/");
 
     cy.get('button[data-auth="login"]').first().click();
 
