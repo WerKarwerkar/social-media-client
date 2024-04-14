@@ -1,6 +1,6 @@
 describe("Login Validation", () => {
   it("Prevents login with incorrect credentials and shows an error message", () => {
-    cy.visit("/");
+    cy.visit("https://werkarwerkar.github.io/social-media-client/");
 
     cy.get('button[data-auth="login"]').click();
 

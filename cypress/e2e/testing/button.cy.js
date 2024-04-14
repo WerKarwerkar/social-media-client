@@ -1,6 +1,6 @@
 describe("Logout", () => {
   it("Successfully logs in and then logs out", () => {
-    cy.visit("/");
+    cy.visit("https://werkarwerkar.github.io/social-media-client/");
 
     cy.get('button[data-auth="login"]').click();
 
