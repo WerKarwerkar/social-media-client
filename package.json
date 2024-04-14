@@ -2,6 +2,7 @@
   "name": "css-frameworks-ca",
   "version": "1.2.1",
   "description": "Test",
+  "type:module": true,
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
@@ -13,8 +14,8 @@
     "test": "npm run test-unit & npm run test-e2e-cli",
     "test-unit": "jest",
     "test-e2e": "cypress open",
-    "test-e2e-report": "cypress run --reporter mochawesome",
-    "test-e2e-cli": "cypress run"
+    "test-e2e-cli": "cypress run",
+    "test-e2e-report": "cypress run --reporter mochawesome"
   },
   "keywords": [],
   "author": "Noroff",
