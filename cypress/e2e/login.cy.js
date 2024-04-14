@@ -1,6 +1,6 @@
 describe("Login Form", () => {
   it("User can login with valid credentials", () => {
-    cy.visit("/");
+    cy.visit("https://werkarwerkar.github.io/social-media-client/");
 
     cy.wait(1000);
 
@@ -9,7 +9,8 @@ describe("Login Form", () => {
     cy.get("#loginEmail").type("stefaF1@noroff.no");
     cy.get("#loginPassword").type("stefaFirst1");
 
-    wait(1000);
+    cy.wait(1000);
+
     cy.get("#loginForm button").contains("Login").click();
 
     cy.wait(1000);
