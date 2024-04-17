@@ -6,8 +6,6 @@ It outlines the critical tools and best practices that underpin our commitment t
 
 ## Requirements for the ca
 
-
-
 ### Step 1: Fork and Branch
 
 - Fork the project repository to your GitHub account to create your personal workspace.
@@ -44,11 +42,10 @@ https://werkarwerkar.github.io/social-media-client/
 
 ## Local Setup
 
-# Prerequisites
 
-Please make sure that you have Node.js installed on your system.
+✅ Make sure that you have Node.js installed on your system.
 
-# Installation
+## Installation
 
 1. Clone this repository:
 git clone https://github.com/WerKarwerkar/social-media-client/tree/workflow
